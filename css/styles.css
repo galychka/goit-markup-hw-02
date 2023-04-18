@@ -1,16 +1,248 @@
-body {
+
+:root {
+    --accent-color: #9747FF;
+    --primary-font: 'Roboto',
+        sans-serif;
+        --secondary-font: 'Raleway',
+            sans-serif;
+    --button-color:  #4D5AE5;
 
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.body {
+    font-family: var(--primary-font);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-header {}
+
+.main-nav {}
+
+.link-logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #4D5AE5;
+        
+    
+}
+.header-logo {
+    font-family: var(--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+    color: #2E2F42;
+}
+
+.list {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+
+.menu:hover,
+.menu:focus {
+    color: var(--accent-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+.address-link {
+    text-decoration: none;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        letter-spacing: 0.02em;
+    
+        color: #434455;
+
+}
+
+.list-item {}
+
+.list-email-link {}
+
+.list-phone-link {}
+
+/* HERO */
+
+.hero-section {
+    background: #2E2F42;
+    
+}
+
+.hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+    
+        color: #FFFFFF;
+
+        background: #4D5AE5;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+background: #404BBF;
+ color: color: #FFFFFF;;
+}
+
+/* MAIN */
+
+.visually-hidden {}
+
+.list-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+
+.list-lead {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        letter-spacing: 0.02em;
+    
+        color: #434455;
+}
+
+.section-two {}
+
+.title {}
+
+.section-two-item {}
+
+.section-two-img {}
+
+.team-card {}
+
+.list-img {}
+
+/* FOOTER */
+
+.footer {
+    background: #2E2F42;
+}
+
+.text-footer {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        letter-spacing: 0.02em;
+    
+        color: #F4F4FD;
+}
+
+.filters-section {}
+
+.visually-hidden {}
+
+.list-button {
+    font-family: inherit;
+    cursor: pointer;
+    background: #F4F4FD;
+    
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+        color: var(--button-color);
+}
+.list-button:hover,
+.list-button:focus {
+    background: #404BBF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+}
+
+.list-link {
+    text-decoration: none;
+}
+
+.list-img {}
+
+.list-title {
+    text-decoration: none;
+   
+}
+
+.list-lead {
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-family: var(--secondary-font);
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #F4F4FD;
+
 }
