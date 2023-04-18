@@ -6,11 +6,14 @@
         --secondary-font: 'Raleway',
             sans-serif;
     --button-color:  #4D5AE5;
+    --subtitle-color: #2E2F42;
 
 }
 
 .body {
     font-family: var(--primary-font);
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -72,13 +75,18 @@
     color: var(--accent-color);
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
 .address {
     font-style: normal;
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--accent-color);
+    color: #404BBF;
 }
 
 .address-link {
@@ -138,7 +146,7 @@
 .hero-button:hover,
 .hero-button:focus {
 background: #404BBF;
- color: color: #FFFFFF;;
+ color: #FFFFFF;
 }
 
 /* MAIN */
@@ -152,7 +160,7 @@ background: #404BBF;
     
         letter-spacing: 0.02em;
     
-        color: #2E2F42;
+        color: var(--subtitle-color);
 }
 
 .list-lead {
@@ -167,13 +175,30 @@ background: #404BBF;
 
 .section-two {}
 
-.title {}
+.title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+       
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+    
+        color: #2E2F42;
+}
 
 .section-two-item {}
 
 .section-two-img {}
 
-.team-card {}
+.team-card {
+    background: #F4F4FD;
+}
+
+.list-item-card{
+    background-color: #FFFFFF
+}
 
 .list-img {}
 
@@ -197,7 +222,7 @@ background: #404BBF;
 
 .visually-hidden {}
 
-.list-button {
+.portfolio-button {
     font-family: inherit;
     cursor: pointer;
     background: #F4F4FD;
@@ -207,11 +232,13 @@ background: #404BBF;
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
+            letter-spacing: 0.04em;
         color: var(--button-color);
 }
-.list-button:hover,
-.list-button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
     background: #404BBF;
+    color: #FFFFFF;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
 }
