@@ -72,16 +72,17 @@
 
 .menu:hover,
 .menu:focus {
-    color: var(--accent-color);
+    color: #404bbf
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: #404bbf;
-}
+.menu {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        letter-spacing: 0.02em;
 
-.menu-link {
-    color: var(--subtitle-color)
+    color: var(--subtitle-color);
 }
 
 .address {
