@@ -80,6 +80,10 @@
     color: #404bbf;
 }
 
+.menu-link {
+    color: var(--subtitle-color)
+}
+
 .address {
     font-style: normal;
 }
